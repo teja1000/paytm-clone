@@ -1,5 +1,11 @@
-export default function Heading({label}) {
-  return <div className="font-bold text-4xl pt-6">
-    {label}
-  </div>
+import React from 'react'
+
+function Heading({label}) {
+        return (
+        <div>
+        <button className='text-3xl font-semibold mt-5'>{label}</button>
+        </div>    
+        )
 }
+
+export default Heading;
